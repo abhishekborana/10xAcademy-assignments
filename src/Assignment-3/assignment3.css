@@ -1,7 +1,48 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.content {
 width: 100%;
-height: 100%;
+height: 350px;
+background-color:#f2f2f2;
+}
+
+.data, .frame{
+    display:inline-block;
+    width:48%
+}
+.frame{
+    margin-top:40px;
+}
+.data{
+    text-align:left;
+    vertical-align:top;
+    margin-top:70px;
+    margin-left:26px;
+}
+.frame iframe{
+    width:100%;
+    height:250px;
+}
+
+.content2{
+    margin-top:20px;
+    width:100%;
+    height: 540px;
+    background-color:#f2f2f2;
+}
+.frame2 iframe{
+    width:500px;
+    height:300px;
+}
+.frame2, .data2{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+.data2 h1,.data2 p{
+    text-align:center;
+}
+.data2 button{
+    margin-left:200px;
 }
